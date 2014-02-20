@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var style = require('style');
+var style = require('component-style');
 
 /**
  * Expose `Pie()`.

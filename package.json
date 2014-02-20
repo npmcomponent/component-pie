@@ -1,5 +1,5 @@
 {
-  "name": "pie-component",
+  "name": "component-pie",
   "description": "Pie charts for component/favicon",
   "version": "0.0.2",
   "keywords": [
@@ -8,19 +8,10 @@
     "favicon",
     "progress"
   ],
+  "styles": [
+    "pie.css"
+  ],
   "dependencies": {
-    "style-component": "*"
-  },
-  "component": {
-    "scripts": {
-      "pie/index.js": "index.js"
-    },
-    "styles": [
-      "pie.css"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/pie.git"
+    "component-style": "git://github.com/npmcomponent/component-style.git"
   }
 }
